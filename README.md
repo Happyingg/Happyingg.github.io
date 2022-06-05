@@ -1,1 +1,1 @@
-<a href"https://happyingg.github.io/">點我進入專題</a>
+點我進入專題[contributor guide index](https://happyingg.github.io/"）
