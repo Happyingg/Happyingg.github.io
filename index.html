@@ -8,15 +8,7 @@
         <link href="mystyle.css" rel="stylesheet">
         </head>
         <body>
-            <?php
-            date_default_timezone_set('Asia/Taipei');
-            $datetime=date("H");
-
-            if(datetime<"10"){echo"Good morning";}
-            elseif($datetime<"14"){echo"Good afternoon";}
-            elseif($datetime<"18"){echo"Good evening";}
-            else {echo"Good night";}
-            ?>
+           
             <ul id="link">
                 <li><a href="#name">主頁</a></li>
                 <li><a href="#introduction">簡介</a></li>
@@ -147,5 +139,15 @@
                 <p><span id="information">工作內容：</span>協助用印文件以及發文</p>
             </div><br>
             <center><button onclick="print()">影印履歷</button></center>
+            <?php
+            date_default_timezone_set('Asia/Taipei');
+            $datetime=date("H");
+
+            if(datetime<"10"){echo"Good morning";}
+            elseif($datetime<"14"){echo"Good afternoon";}
+            elseif($datetime<"18"){echo"Good evening";}
+            else {echo"Good night";}
+            ?>
+            
         </body>
 </html> 
