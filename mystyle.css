@@ -1,0 +1,101 @@
+body {      /*黑色背景主題*/
+    background: #0c0b09;
+    color: #fff;
+}
+ 
+ul {    /*navigation bar特效*/
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+#link li {      /*id為"link"的<li>*/
+    float:left;
+}
+
+#link li a {    /*id為"link"的<li>的連接*/
+    display:block;
+    color:rgb(241, 237, 163);
+    text-align:center;
+    padding:10px 14px;
+    text-decoration:none;
+}
+
+#link li a:hover {  /*id為"link"的<li>的連接handover效果*/
+    background-color: rgb(96, 95, 95);
+}
+
+
+p {     /*<p> 特效*/
+    font-size:20px;
+}
+
+::selection{    /*將內容反白時的特效*/
+    color:white;
+    background:rgba(236, 179, 57, 0.434);
+}
+
+a:link{ /*未點擊過的連接顏色*/
+    color:rgb(131, 161, 250);
+}
+
+a:visited{ /*點擊過的連接顏色*/
+    color:rgb(131, 161, 250);
+}
+
+a:hover{ /*移動到連接時的顏色*/
+    color:rgb(12, 56, 186);
+}
+
+a:active{ /*按下連接時的顏色*/
+    color:rgb(12, 56, 186);
+}
+
+#info{ /*聯絡資訊特效*/
+    float: right;
+}
+
+#name{ /*名字特效*/
+    color:white;
+    font-size:60px;
+}
+
+h1{ /*<h1>特效*/
+    color:rgb(251, 204, 134);
+}
+
+
+li{ /*<li>特效*/
+    font-size: 20px;
+}
+
+#important{ /*較重要資訊特效*/
+    color:#be923a
+}
+
+#highlight{ /*較重要資訊特效*/
+    color:rosybrown;
+    font-size: 25px;
+}
+
+#place{ /*地點資訊特效*/
+    color:#f3f1be;
+    font-size:25px;
+}
+.style1 { /*圖片特效*/
+    max-width:100%;
+    height:300px;
+    border-radius:150%;
+}
+.style2 { /*圖片特效*/
+    max-width:100%;
+    height:200px;
+    border-radius:150%;
+}
+#information { /*資料特效*/
+    color:#f0d0bd; 
+}
